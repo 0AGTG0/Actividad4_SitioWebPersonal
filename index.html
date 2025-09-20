@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Primera página chida.</title>
+        <style>
+            body{
+
+                background-color: #f4f4f4;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0; /*borde externo*/
+                padding: 0;/*borde interno*/
+                line-height: 1.6;
+
+                /* Encabezado */
+
+                header{
+                    background-image: url('imagenes/laptop.jpg');
+                    background-size: cover;
+                    height: 200px;
+                    background-position: 80% 65%;
+                    text-align: center;
+                    padding: 20px;
+                }
+
+                h1{
+                    text-align: center;
+                    color: rgb(0, 42, 255);
+                }
+
+                nav ul{
+                    list-style: none;
+                    padding: 0;
+                }
+
+                nav ul li{
+                    display: inline;
+                    margin: 0 15px;
+                }
+
+                nav ul li a{
+                    color: rgb(255, 0, 0);
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+
+                nav a:hover{
+                    color: #00b4d8;
+                }
+
+                /*Contenido principal*/
+
+                main{
+                    padding: 20px;
+                }
+
+                article{
+                    background-color: white;
+                    padding: 15px;
+                    margin-bottom: 15px;
+                    border-radius: 5px;
+                }
+
+                img{
+                    display: block;
+                    margin: auto;
+                }
+
+                #nombre{
+                    text-align: right;
+                    font-size: 15px;
+                    font-style: italic;
+                }
+
+                /*Pie de página*/
+
+                footer{
+                    background-color: #333;
+                    text-align: center;
+                    color: white;
+                    padding: 10px;
+                }
+
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Un poco acerca de mí</h1>
+            <nav>
+                <ul>
+                    <li><a href="#datos">Información</a></li>
+                    <li><a href="#biografia">Biografía</a></li>
+                    <li><a href="#gustos">Cosas que me gustan</a></li>
+                    <li><a href="#foto">Una foto mía</a></li>
+                    <li><a href="#tabla">Una tabla chida</a></li>
+                    <li><a href="#frase">Frase que me gusta</a></li>
+                </ul>
+        </header>
+        <main>
+            <article>
+            <h2 id="datos">Información</h2>
+            <p>Nombre: <b>Asarel Guillermo Torres González</b></p>
+            <p>Edad: <i>19</i></p>
+            <p>Maestra: <sub>Teresita de Jesús </sub></p>
+            <p>Grupo: <u>LEVN403</u></p>
+            </article>
+            <article>
+                <h2 id="biografia">Biografía</h2>
+                <p>Me presento mi nombre es Asarel Guillermo Torres González y esta página esta hecha como un ejercicio para mis clases de desarrollo web en mi escuela.</p>
+                <p>Actualmente estudio el cuarto cuatrimestre de una carrera llamada Entornos Virtuales y Negocios Digitales en la Universidad Tecnológica de León. Esta página la estoy creando con los conocimientos adquiridos en esta materia y me es muy interesante y divertido poder ver el cómo se hace una página web y ahora yo ser capaz de crearla desde cero y a mi gusto. Prbablemente esta no sea la mejor página del mundo pues no tendrá tantos elementos como una profesional puede tener, pero aún así, me emociona poder crear mis propias páginas.</p>
+                <p>Espero algún día poder volverme un gran programador y crear mis propias apps, páginas web e incluso mis propios videojuegos aunque no lleguen a ser populares (claro que la tirada es que si lo sean verdad) pero en lo mientras estudiare mucho para convertirme en lo que quiero ser y poder llegar ser económicamente libre para poder comprarme lo que desee sin tener que preocuparme por si me alcanza para el camión el día siguiente.</p>
+            </article>
+            <article>
+                <h2 id="gustos">Cosas que me gustan.</h2>
+                <p>Algunas de las cosas que más me gustan son:</p>
+                <ul>
+                    <li>Videojuegos</li>
+                    <li>Música</li>
+                    <li>Espagueti</li>
+                    <li>Carne</li>
+                    <li>Películas y series</li>
+                </ul>
+            </article>
+            <article>
+                <h2 id="foto">Una foto mía</h2>          
+                <img src="/imagenes/yoConSombrero.jpeg" alt="Yo con un sombrero.jpg" width="400">
+                <p>Para esta imagen use una etiqueta img que me permitió ponerla aquí y con CSS pude cambiar su posición. De la misma manera me entere que elementos como las imagenes, videos y audio son elemntos embebidos, estos se usan para darle más estética a una página además de que sirven como ayuda en la descripción de otros elementos, por ejemplo, sirven de guía al seguir los pasos de una receta de cocina. Obtuve esta Información de <a href="https://youtu.be/1wQIu0Jar5M?si=h94zEzk9g5_QS60U" target="_blank">este video</a> donde me explicó muy bien que son los elementos embebidos.</p>
+            </article>
+            <article>
+                <h2 id="tabla">Una tabla chida</h2>
+                <p>En esta tabla chida se expondrá cómo me sentí al hacer esta página.</p>
+                <table border="1">
+                    <caption><i><b>Tabla chida</b></i></caption>
+                    <thead>
+                        <tr>
+                            <th>¿Emocionado por ser mi primer página?</th>
+                            <th>¿Me divertí?</th>
+                            <th>¿Lo volvería a hacer?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SI, MUCHO, ARTO, DEMASIADO </td>
+                            <td>Obvio que yes, of course my horse</td>
+                            <td>Por su pollo que yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            <article>
+                <h2 id="frase">Frase que me gusta</h2>
+                <p>Por último dejo una frase de uno de los programadores que me indujo a este mundo y me motiva a seguir aprendiendo:
+                </p>
+                <q>
+                    Si lo puedes imaginar, lo puedes programar.
+                </q>
+                <p id="nombre"> - Alejandro Taboada, Programación ATS</p>
+            </article>
+        </main>
+        <footer>
+            <p>&copy; 2025 Página creada por Asarel Guillermo Torres González | Contacto: agtg06@hotmail.com</p>
+        </footer>
+    </body>
+</html>
